@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <title>Survey</title>
+     <link rel="stylesheet" href="styles.css">
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  </head>
+<body>
+   <div>
+            <h1 id="title">Welcome to My Survey</h1>
+            <p id="description">Survey Form</p>
+<form id="survey-form">
+   <div class="input1">
+    <div>
+            <label id="name-label" for="name">Name:</label><input placeholder="enter name here" id="name" type="text" required />
+    </div>
+         <div>
+            <label id="email-label" for="email">Email:</label><input placeholder="enter email here" id="email" type="email" required />
+         </div>
+         <div>  
+            <label id="number-label" for="number">Number:</label><input min="1" max="10" placeholder="enter number here" id="number" type="number" />   
+         </div>
+         <div>
+            <label>Select your type:</label>
+            <select id="dropdown">
+            <option>King</option>
+            <option>Queen</option>
+            </select>
+         </div>
+         <div>
+            <label for="king">King</label>
+            <input id="king" name="radio" type="radio" value="king" />
+            <label for="queen">Queen</label>
+            <input id="queen" name="radio" type="radio" value="queen" />
+         </div>
+      </div>
+      <h2>What is your Leadership style:</h2>
+         <div>
+            <label>
+            <input value="dictator" name="checkbox" class="checkbox" type="checkbox" />Dictator</label>
+            <label>
+            <input value="anarchist" name="checkbox" class="checkbox" type="checkbox" />Anarchist</label>
+            <label>
+            <input value="freewill" name="checkbox" class="checkbox" type="checkbox" />FreeWill</label>
+            <label>
+            <input value="liberator" name="checkbox" class="checkbox" type="checkbox" />Liberator</label>
+         </div>    
+         <div>
+            <h2>Why are you a King or Queen:</h2>
+            <textarea id="textarea" name="textarea" rows="4" cols="50">Why are you a King or Queen...
+            </textarea>
+         </div>  
+      <div>     
+         <input type="submit" id="submit" />
+      </div>
+</form>
+      </div>
+  </body>

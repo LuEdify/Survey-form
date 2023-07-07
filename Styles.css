@@ -1,0 +1,27 @@
+body {
+    font-family: Monospace;
+    font-style: italic;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  div {
+    padding-bottom: 1em;
+    text-align: center;s
+    display: block;
+  }
+  .textarea {
+    width: 200px; height: 100px;
+    display: block;
+    margin: auto;
+  }
+ .input1 {
+    padding: 10px;
+    border: 2px solid white;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+  h2 {
+    text-decoration: underline lightcoral;
+    color: coral;
+  }
